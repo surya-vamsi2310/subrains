@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+@font-face {
+    font-family: "GT-Walsheim-Pro"; /*a name to be used later*/
+    src: url("src/assets/fonts/GT-Walsheim-Pro-Regular.ttf");
+    // src: url("src/assets/fonts/GT-Walsheim-Pro-Bold.ttf"),
+    //     /*URL to font*/ url("src/assets/fonts/GT-Walsheim-Pro-Light.ttf"),
+    //     url("src/assets/fonts/GT-Walsheim-Pro-Regular.ttf");
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+
+    font-family: "GT-Walsheim-Pro" !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+

@@ -1,0 +1,284 @@
+<section class="panel categoryColor" data-color="black">
+    <!-- [style.backgroundColor]="categoryColor" -->
+    <!--Main Navigation-->
+    <header class="intro-header">
+
+        <!--Navbar-->
+        <!-- <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"
+            [containerInside]="false"> -->
+        <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark scrolling-navbar" [containerInside]="false">
+            <mdb-navbar-brand>
+                <a routerLink="/" class="navbar-brand">
+                    <img src="assets/images/logo.png" alt="logo" width="300px" class="ml-5 pl-5">
+                </a>
+            </mdb-navbar-brand>
+            <links class="ml-5 pl-5">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item  waves-light" mdbWavesEffect>
+                        <a class="nav-link mx-4" href="">
+                            <h3 class="navlinks"> Product & Solutions</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item waves-light" mdbWavesEffect>
+                        <a class="nav-link mx-4" href="#">
+                            <h3 class="navlinks"> Services</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item waves-light" mdbWavesEffect>
+                        <a class="nav-link mx-4" href="#">
+                            <h3 class="navlinks"> Partners</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item waves-light" mdbWavesEffect>
+                        <a class="nav-link mx-4" href="#">
+                            <h3 class="navlinks"> Programs</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item waves-light" mdbWavesEffect>
+                        <a class="nav-link mx-4" href="#">
+                            <h3 class="navlinks"> About Us</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item waves-light" mdbWavesEffect>
+                        <a class="nav-link mx-4" href="#">
+                            <h3 class="navlinks"> Resources</h3>
+                        </a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline waves-light" mdbWavesEffect>
+                    <div class="md-form">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                </form> -->
+            </links>
+            <!-- <links class="w-50 ">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item waves-light" mdbWavesEffect>
+                        <a class="nav-link" href="#">
+                            <b> About Us</b>
+                        </a>
+                    </li>
+                    <li class="nav-item waves-light" mdbWavesEffect>
+                        <a class="nav-link" href="#">
+                            <b> Resources</b>
+                        </a>
+                    </li>
+                </ul>
+            </links> -->
+        </mdb-navbar>
+ 
+
+        <div class="view">
+            <video #VideoContainer autoplay muted loop id="myvideo" style="width: 100%;">
+                    <source src="/assets/landing.mp4" type="video/mp4"/>
+            </video>
+            <!-- <mat-video title="My Tutorial Title" [autoplay]="true" [preload]="true" [fullscreen]="true" [download]="false" color="accent" spinner="spin" [loop]="true">
+                <source matVideoSource src="/assets/landing.mp4" type="video/mp4">
+              </mat-video> -->
+            <div class="mask">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="LangingPageHeading">
+                            <p class="h1 headding1">
+                                <span class="text-brand">EMPOWERING </span> <br>
+                                <span class="text-brand">YOUR </span> <span class="white-text">DIGITAL </span> <br>
+                                <span class="white-text">TRANSFORMATION </span>
+                            </p>
+                        </div>
+
+                        <div>
+                            <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+                                <mdb-carousel-item>
+                                    <div class="w-100">
+                                        <p class="h1 white-text carouselHeadders"> <span class="text-brand"> TURN YOUR
+                                                DATA </span> <br> INTO GOLD </p>
+                                        <p class="white-text">Toyota Baltic’s cars’ storage and sales data was scattered
+                                            over different
+                                            databases. There was no clear central overview </p>
+                                    </div>
+                                </mdb-carousel-item>
+                                <mdb-carousel-item>
+                                    <div class="w-100">
+                                        <p class="h1 white-text carouselHeadders"> <span class="text-brand">AUTOMATE
+                                                <br>
+                                                DECISION-MAKING </span> & <br> ROCKET EFFICIENCY </p>
+                                        <p class="white-text">Toyota Baltic’s cars’ storage and sales data was scattered
+                                            over different
+                                            databases. There was no clear central overview </p>
+                                    </div>
+                                </mdb-carousel-item>
+                                <mdb-carousel-item>
+                                    <div class="w-100">
+                                        <p class="h1 white-text carouselHeadders"> <span class="text-brand">COMBATING
+                                                COVID </span> <br> WITH DISTANCE <br> LEARNING <br> PLATFORM! </p>
+                                        <p class="white-text">Toyota Baltic’s cars’ storage and sales data was scattered
+                                            over different
+                                            databases. There was no clear central overview </p>
+                                    </div>
+                                </mdb-carousel-item>
+                                <mdb-carousel-item>
+                                    <div class="w-100">
+                                        <p class="h1 white-text carouselHeadders"> TURN YOUR DATA INTO GOLD </p>
+                                        <p class="white-text">Toyota Baltic’s cars’ storage and sales data was scattered
+                                            over different
+                                            databases. There was no clear central overview </p>
+                                    </div>
+                                </mdb-carousel-item>
+                                <mdb-carousel-item>
+                                    <div class="w-100">
+                                        <p class="h1 white-text carouselHeadders"> TURN YOUR DATA INTO GOLD </p>
+                                        <p class="white-text">Toyota Baltic’s cars’ storage and sales data was scattered
+                                            over different
+                                            databases. There was no clear central overview </p>
+                                    </div>
+                                </mdb-carousel-item>
+                            </mdb-carousel>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+    <div class="panel text-center py-5 px-4 my-5" data-color="white">
+        <div>
+            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                    MDBootstrap</strong></h2>
+            <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+                voluptatem,
+                optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
+                qui,
+                dolorum!
+            </p>
+            <a mdbBtn color="white" outline="true" class="waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="clone" class="left"></mdb-icon>View project
+            </a>
+        </div>
+        <div>
+            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                    MDBootstrap</strong></h2>
+            <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+                voluptatem,
+                optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
+                qui,
+                dolorum!
+            </p>
+            <a mdbBtn color="white" outline="true" class="waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="clone" class="left"></mdb-icon>View project
+            </a>
+        </div>
+        <div>
+            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                    MDBootstrap</strong></h2>
+            <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+                voluptatem,
+                optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
+                qui,
+                dolorum!
+            </p>
+            <a mdbBtn color="white" outline="true" class="waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="clone" class="left"></mdb-icon>View project
+            </a>
+        </div>
+        <div>
+            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                    MDBootstrap</strong></h2>
+            <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+                voluptatem,
+                optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
+                qui,
+                dolorum!
+            </p>
+            <a mdbBtn color="white" outline="true" class="waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="clone" class="left"></mdb-icon>View project
+            </a>
+        </div>
+    </div>
+    <!-- <div class="panel text-center py-5 px-4 my-5" data-color="indigo">
+    <div>
+        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                MDBootstrap</strong></h2>
+        <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+            voluptatem,
+            optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
+            qui,
+            dolorum!
+        </p>
+        <a mdbBtn color="white" outline="true" class="waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="clone" class="left"></mdb-icon>View project
+        </a>
+    </div>
+</div> -->
+    <!-- <div class="panel text-center py-5 px-4 my-5" data-color="indigo">
+    <div>
+        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                MDBootstrap</strong></h2>
+        <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+            voluptatem,
+            optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
+            qui,
+            dolorum!
+        </p>
+        <a mdbBtn color="white" outline="true" class="waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="clone" class="left"></mdb-icon>View project
+        </a>
+    </div>
+</div>
+
+<div class="panel text-center py-5 px-4 my-5" data-color="blue">
+    <div>
+        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                MDBootstrap</strong></h2>
+        <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+            voluptatem,
+            optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
+            qui,
+            dolorum!
+        </p>
+        <a mdbBtn color="white" outline="true" class="waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="clone" class="left"></mdb-icon>View project
+        </a>
+    </div>
+</div>
+
+<div class="panel text-center py-5 px-4 my-5" data-color="white">
+    <div>
+        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                MDBootstrap</strong></h2>
+        <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+            voluptatem,
+            optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
+            qui,
+            dolorum!
+        </p>
+        <a mdbBtn color="white" outline="true" class="waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="clone" class="left"></mdb-icon>View project
+        </a>
+    </div>
+</div>
+
+<div class="panel text-center py-5 px-4 my-5" data-color="yellow">
+    <div>
+        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                MDBootstrap</strong></h2>
+        <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+            voluptatem,
+            optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
+            qui,
+            dolorum!
+        </p>
+        <a mdbBtn color="white" outline="true" class="waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="clone" class="left"></mdb-icon>View project
+        </a>
+    </div>
+</div>
+
+ -->
+</section>

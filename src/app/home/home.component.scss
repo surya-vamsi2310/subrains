@@ -1,0 +1,55 @@
+.navbarSlash {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    padding-top: 8px;
+}
+
+.header {
+    font-size: 60px;
+}
+.headderContent {
+    // font-size: large;
+    // letter-spacing: 2px;
+    line-height: 1.3;
+}
+
+.overlay .mask {
+    transition: all 0.6s ease-out;
+    opacity: 1;
+}
+.overlay .mask:hover {
+    .overlaymaskContent {
+        height: 245px;
+    }
+}
+
+.overlaymaskContent {
+    transition: all 0.6s ease-out;
+    position: absolute;
+    bottom: 0px;
+    height: 155px;
+}
+
+.underlines {
+}
+.sideheaddingsBorder {
+    content: ""; 
+    width: 50px;
+    border-bottom: 5px solid;
+    border-color: #009f77;
+}
+
+.sideheadding:before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    bottom: 0;
+    height: 1px;
+    width: 7%;
+    border-bottom: 5px solid #009f77;
+}
+.whatwehave{
+    font-size: 80px;
+    // font-weight: 600;
+}
